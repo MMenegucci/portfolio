@@ -27,11 +27,11 @@
 </head>
 
 <body>
-  <header class=" header1">
+  <header class="header1">
     <div class="container">
       <div class="flex">
         <img class="logo" src="./img/MayconTech.png" alt="Logo MayconTech">
-        <nav>
+        <nav aria-label="Menu Principal">
           <ul class="header-menu">
             <li><a href="#introducao">Início</a></li>
             <li><a href="#sobremim">Sobre mim</a></li>
@@ -40,20 +40,20 @@
           </ul>
         </nav>
         <div class="btn-ctt">
-          <a href="#contato"><button>Contato</button></a>
+          <a href="#contato"><button aria-label="Botão de Contato">Contato</button></a>
         </div>
-        <div class="btn-abrir" id="btn-menu">
-          <img src="./img/menu-regular-108.png" alt="Menu">
+        <div class="btn-abrir" id="btn-menu" role="button" aria-label="Abrir Menu">
+          <img src="./img/menu-regular-108.png" alt="Ícone de Menu">
         </div>
       </div>
 
-      <div class="menu-mobile" id="menu-mobile">
-        <div class="btn-fechar">
-          <img src="./img/fechar.png" alt="Fechar Menu">
+      <div class="menu-mobile hidden" id="menu-mobile" aria-hidden="true">
+        <div class="btn-fechar" role="button" aria-label="Fechar Menu">
+          <img src="./img/fechar.png" alt="Ícone de Fechar Menu">
         </div>
-        <nav>
+        <nav aria-label="Menu Mobile">
           <ul>
-            <li><a href="#introcuao">Início</a></li>
+            <li><a href="#introducao">Início</a></li>
             <li><a href="#sobremim">Sobre mim</a></li>
             <li><a href="#projeto">Projetos</a></li>
             <li><a href="#linguagens">Linguagens</a></li>
@@ -61,24 +61,24 @@
           </ul>
         </nav>
       </div>
-      <div class="overlay-menu" id="overlay-menu"></div>
+      <div class="overlay-menu hidden" id="overlay-menu" aria-hidden="true"></div>
     </div>
   </header>
 
-  <main class="hidden">
+  <main class="hidden" aria-hidden="true">
     <div class="introducao" id="introducao">
       <div>
         <h1>Olá!👋, me chamo Maycon Menegucci<br><span class="front">Front-End <br>Developer</span></h1>
-        <ul class="redes">
-          <li><a href="https://github.com/MMenegucci"><img class="git" src="./img/Vector.png" alt="GitHub"></a></li>
-          <li><a href="https://www.linkedin.com/in/mayconmenegucci/"><img class="link" src="./img/Vector2.png" alt="LinkedIn"></a></li>
-          <li><a href="https://drive.google.com/file/d/1gzlrTdwHBINdyciF_RpaVS38TZjaUzk7/view?usp=sharing"><img class="btn-cv" src="./img/cv.png" alt="Currículo"></a></li>
+        <ul class="redes" aria-label="Redes Sociais">
+          <li><a href="https://github.com/MMenegucci" aria-label="GitHub"><img class="git" src="./img/Vector.png" alt="GitHub"></a></li>
+          <li><a href="https://www.linkedin.com/in/mayconmenegucci/" aria-label="LinkedIn"><img class="link" src="./img/Vector2.png" alt="LinkedIn"></a></li>
+          <li><a href="https://drive.google.com/file/d/1gzlrTdwHBINdyciF_RpaVS38TZjaUzk7/view?usp=sharing" aria-label="Currículo"><img class="btn-cv" src="./img/cv.png" alt="Currículo"></a></li>
         </ul>
       </div>
     </div>
   </main>
 
-  <section class="hidden" id="sobremim" aria-label="Sobre Mim">
+  <section class="hidden" id="sobremim" aria-label="Sobre Mim" aria-hidden="true">
     <div class="Maycon">
       <img class="imgmaycon" src="./img/MayconDev.png" alt="Imagem de Maycon Menegucci">
       <div class="sobremaycon">
@@ -88,7 +88,7 @@
     </div>
   </section>
 
-  <section class="hidden" id="projeto" aria-label="Projetos">
+  <section class="hidden" id="projeto" aria-label="Projetos" aria-hidden="true">
     <div class="service">
       <div class="text-center">
         <h2>Projetos</h2>
@@ -120,9 +120,9 @@
         </div>
       </div>
     </div>
-    </div>
   </section>
-  <section class="hidden" id="linguagens" aria-label="Linguagens">
+
+  <section class="hidden" id="linguagens" aria-label="Linguagens" aria-hidden="true">
     <div class="linguagens">
       <div class="meio">
         <h1>Habilidades e Conhecimentos</h1>
@@ -148,24 +148,24 @@
     </div>
   </section>
 
-  <section class="hidden" id="contato" aria-label="Contato">
+  <section class="hidden" id="contato" aria-label="Contato" aria-hidden="true">
     <div class="contato">
       <div class="contato-container">
         <div class="icone hidden">
           <ul>
-            <li><a href="mailto:techmayconmenegucci@hotmail.com"><img class="redesocial" src="./img/Email.png" alt="E-mail"></a></li>
+            <li><a href="mailto:techmayconmenegucci@hotmail.com" aria-label="E-mail"><img class="redesocial" src="./img/Email.png" alt="E-mail"></a></li>
           </ul>
           <h4>E-mail</h4>
         </div>
         <div class="icone hidden">
           <ul>
-            <li><a href="https://www.instagram.com/menegucci.dev/"><img class="redesocial" src="./img/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://www.instagram.com/menegucci.dev/" aria-label="Instagram"><img class="redesocial" src="./img/instagram.png" alt="Instagram"></a></li>
           </ul>
           <h4>Instagram</h4>
         </div>
         <div class="icone hidden">
           <ul>
-            <li><a href="https://api.whatsapp.com/send?phone=5512988296812&text="><img class="redesocial" src="./img/whatsapp.png" alt="WhatsApp"></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5512988296812&text=" aria-label="WhatsApp"><img class="redesocial" src="./img/whatsapp.png" alt="WhatsApp"></a></li>
           </ul>
           <h4>WhatsApp</h4>
         </div>

@@ -39,14 +39,14 @@
 .link,
 .btn-cv {
   width: 50px;
-  transition: all ease 0.3s;
+  transition: all ease 0.5s;
 }
 .git:hover,
 .link:hover,
 .btn-cv:hover {
   transform: scale(1.3);
   background: transparent;
-  transition: all ease 0.3s;
+  transition: all ease 0.5s;
 }
 .btn-cv:hover {
   transform: scale(1.25);
