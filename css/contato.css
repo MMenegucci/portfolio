@@ -31,16 +31,16 @@
 }
 
 .icone h4 {
-  font: arial;
+  font-family: exo;
   color: white;
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 1px;
   transition: all ease 0.3s;
 }
 
 .right-contact h2 {
-  font-family: arial;
+  font-family: alata;
   font-size: 1.6rem;
   font-weight: 800;
   margin-bottom: 7px;
@@ -50,7 +50,8 @@
 .right-contact p {
   color: #878787;
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
+  font-family: exo;
   max-width: 55ch;
   line-height: 1.5rem;
   transition: all ease 0.6s;

@@ -32,7 +32,8 @@
 .container-linguagens p {
   color: #acacac;
   line-height: 1.4rem;
-  font-weight: 200;
+  font-weight: 400;
+  font-family: exo;
   margin-bottom: 1.4rem;
   align-content: center;
   transition: all ease 1.5s;
