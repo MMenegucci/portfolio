@@ -230,6 +230,7 @@
     justify-items: center;
     grid-template-columns: 1fr;
     margin: 10px 50px;
+    padding: 0 auto;
   }
   .contain2 .container-linguagens p,
   .contain4 .container-linguagens p {
@@ -240,9 +241,12 @@
     max-width: 60ch;
     font-size: 1rem;
   }
+  .foto {
+    grid-row: 1;
+  }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .container-linguagens p {
     line-height: 1.5rem;
     max-width: 60ch;
@@ -253,7 +257,7 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
   .container-linguagens p {
     line-height: 1.5rem;
     max-width: 60ch;
@@ -261,7 +265,7 @@
   }
 }
 
-@media (max-width: 590px) {
+@media (max-width: 650px) {
   .linguagens {
     gap: 70px;
     padding: 70px 0;
@@ -276,7 +280,7 @@
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 550px) {
   .linguagens {
     gap: 50px;
     padding: 50px 0;
@@ -294,7 +298,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .linguagens {
     gap: 45px;
     padding: 50px 0;
@@ -317,7 +321,7 @@
     width: 45px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 470px) {
   .linguagens {
     gap: 45px;
     padding: 20px 0;
