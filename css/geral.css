@@ -78,3 +78,17 @@ ul {
   transform: translateX(0);
   transition: all 1.1s;
 }
+
+.hiddeny {
+  opacity: 0;
+  filter: blur(15px);
+  transform: translateY(-100%);
+  transition: all 1.1s;
+}
+
+.showy {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+  transition: all 1.1s;
+}

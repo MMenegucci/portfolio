@@ -13,7 +13,6 @@
   margin-bottom: 20px;
   justify-content: center;
   color: white;
-  transition: all ease 2s;
   font-weight: 400;
 }
 
@@ -33,13 +32,19 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 22px;
-  transition: all ease 2s;
 }
 .git,
 .link,
 .btn-cv {
   width: 50px;
-  transition: all ease 0.5s;
+}
+
+.link {
+  transition: 1000ms;
+}
+
+.btn-cv {
+  transition: 1200ms;
 }
 .git:hover,
 .link:hover,

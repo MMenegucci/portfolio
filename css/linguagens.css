@@ -50,6 +50,18 @@
   gap: 30px;
 }
 
+.contain2 {
+  transition: 1200ms;
+}
+
+.contain3 {
+  transition: 1500ms;
+}
+
+.contain4 {
+  transition: 1700ms;
+}
+
 .contain1,
 .contain2,
 .contain3,
@@ -63,7 +75,6 @@
   background: black;
   border-radius: 2rem;
   border: 1px solid transparent;
-  transition: all ease 0.25s;
 }
 .contain2,
 .contain4 {
@@ -76,7 +87,6 @@
   background: black;
   border-radius: 2rem;
   border: 1px solid transparent;
-  transition: all ease 0.25s;
 }
 
 .contain1:hover,

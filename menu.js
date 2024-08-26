@@ -15,7 +15,20 @@ const observer = new IntersectionObserver((efects) => {
   });
 });
 
+const efeito = document.querySelectorAll(".hiddeny");
+
+const observ = new IntersectionObserver((efects) => {
+  efects.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("showy");
+    } else {
+      entry.target.classList.remove("showy");
+    }
+  });
+});
+
 efeitos.forEach((efeitos) => observer.observe(efeitos));
+efeito.forEach((efeito) => observ.observe(efeito));
 
 let btnmenu = document.getElementById("btn-menu");
 let menu = document.getElementById("menu-mobile");

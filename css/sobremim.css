@@ -1,6 +1,6 @@
 .Maycon {
   margin: 5px 70px;
-  padding: 150px 0px 230px 0px;
+  padding: 100px 0px 180px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,18 +13,17 @@
 .sobremim-titulo {
   font-size: 4rem;
   color: white;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-transform: uppercase;
   z-index: 2;
+  font-weight: 400;
   font-family: alata;
-  transition: all ease 3s;
 }
 
 .Maycon .imgmaycon {
   width: 400px;
   position: relative;
   animation: flutuar 1.3s ease-in-out infinite alternate;
-  transition: all ease 3s;
 }
 
 @keyframes flutuar {
@@ -59,7 +58,6 @@
   font-weight: 400;
   max-width: 50ch;
   color: white;
-  transition: all ease 3s;
 }
 
 .sobremim-geral {

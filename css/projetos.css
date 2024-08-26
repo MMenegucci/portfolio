@@ -5,8 +5,7 @@
 .service {
   max-height: 450px;
   margin: 30px 30px;
-  padding: 70px 20px 300px 20px;
-  background: black;
+  padding: 20px 20px 250px 20px;
   border-radius: 10px;
   color: white;
   transition: all ease 0.4s;
@@ -20,9 +19,9 @@
 .text-center h2 {
   margin-top: 80px;
   font-family: Lexend Mega;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 6rem;
-  transition: all ease 3s;
+  transition: all ease 1s;
 }
 
 .service-item {
@@ -34,24 +33,34 @@
   margin-top: 4rem;
 }
 
+.service-box {
+  transition: all ease 1.5s;
+}
+
+.service-box2 {
+  transition: all ease 1.8s;
+}
+
+.service-box3 {
+  transition: all ease 2.3s;
+}
+
 .service-box,
 .service-box2 {
   padding: 20px 10px;
-  background: #131313;
+  background: black;
   border-radius: 10px;
   border: 1px solid transparent;
   cursor: pointer;
-  transition: all ease 0.2s;
 }
 .service-box3 {
   align-content: center;
   height: 258px;
   padding: 20px 10px;
-  background: #131313;
+  background: black;
   border-radius: 10px;
   border: 1px solid transparent;
   cursor: pointer;
-  transition: all ease 0.3s;
 }
 .service-box .img-projeto,
 .service-box2 .img-projeto {
